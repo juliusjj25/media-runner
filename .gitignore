@@ -1,0 +1,17 @@
+# Python / venv
+.venv/
+__pycache__/
+*.pyc
+
+# Runtime outputs (machine-specific)
+runtime/logs/
+runtime/status/
+runtime/journal/
+runtime/state.sqlite
+runtime/*.sqlite
+runtime/config.local.toml
+
+# OS/editor
+.vscode/
+.DS_Store
+Thumbs.db

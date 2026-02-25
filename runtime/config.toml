@@ -1,0 +1,11 @@
+[paths]
+status_root = "X:/Programming/media-runner/runtime/status"
+anchor_hour = 8
+stale_hours = 26
+
+[netflix]
+category_allow = "NetflixStandUp"
+library_root   = "R:/TV Shows/Netflix Stand Up Specials"
+script_dir     = "R:/TV Shows/Netflix Stand Up Specials/Scripting"
+master_csv     = "R:/TV Shows/Netflix Stand Up Specials/Scripting/master_episodes.csv"
+wiki_scraper   = "R:/TV Shows/Netflix Stand Up Specials/Scripting/wiki_scraper.py"

@@ -1,0 +1,6 @@
+tomli; python_version < "3.11"
+pyyaml
+requests
+beautifulsoup4
+plexapi
+portalocker
