@@ -5,7 +5,23 @@ stale_hours = 26
 
 [netflix]
 category_allow = "NetflixStandUp"
-library_root   = "R:/TV Shows/Netflix Stand Up Specials"
-script_dir     = "R:/TV Shows/Netflix Stand Up Specials/Scripting"
-master_csv     = "R:/TV Shows/Netflix Stand Up Specials/Scripting/master_episodes.csv"
-wiki_scraper   = "R:/TV Shows/Netflix Stand Up Specials/Scripting/wiki_scraper.py"
+library_root   = "R:\\TV Shows\\Netflix Stand Up Specials"
+master_csv     = "R:\\TV Shows\\Netflix Stand Up Specials\\Scripting\\master_episodes.csv"
+master_json    = "R:\\TV Shows\\Netflix Stand Up Specials\\Scripting\\master_episodes.json"
+
+kometa_metadata_dir = "C:\\Program Files\\Kometa\\metadata"
+kometa_yml_name      = "netflix_stand_up_specials.yml"
+plex_show_title      = "Netflix Stand Up Specials"
+
+[meateater]
+site_base = "https://www.themeateater.com"
+output_metadata_dir = "X:/Programming/media-runner/runtime/kometa/metadata"
+approvals_dir = "X:/Programming/media-runner/runtime/approvals"
+
+[[meateater.shows]]
+name = "MeatEater Hunts"
+year = 2012
+yml = "meateater_hunts.yml"
+urls = [
+  "https://www.themeateater.com/shows/meateater"
+]
